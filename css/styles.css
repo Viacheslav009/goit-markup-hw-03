@@ -1,0 +1,236 @@
+
+/*подключение шрифтов,бэкграунд,цвет абзацев*/
+body {
+ background-color: #F5F5F5;
+ color: #757575;  
+ font-family: Roboto,Raleway;
+}
+
+/*цвет основного  черного текста color: #212121
+цвет вторичного черного текста color: #757575
+задний фон основной темный     background: #2F303A
+белый h1, шапка, studio-logo-footer background: #FFFFFF 
+белый основной background: #F5F5F5
+белый вторичный background: #F5F4FA
+акцент web-logo background: #2196F3
+studio-logo-header #000000
+*/
+:root{
+    --white:#FFFFFF;
+    --black:#000000;
+    --accent:#2196F3;
+    --background-white:#F5F5F5;
+    --secondary-background-white:#F5F4FA;
+    --hero-footer-background:#2F303A;
+    --primary-text-color:#212121;
+    --secondary-text-color:#757575;
+
+}
+/*logo*/
+.logo{
+font-family: 'Raleway';    
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31/26);
+letter-spacing: 0.03em;
+
+color: var(--accent);
+
+}
+.logo-header{
+    color: var(--black);
+}
+.logo-footer{
+    color:  var(--white) ;
+}
+/* убираем точки в списке везде*/
+.list{
+    list-style: none;
+}
+/*---навигация---*/
+.nav-list {
+}
+.nav-item {
+}
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16/12);
+letter-spacing: 0.02em;
+
+color: var(--primary-text-color);
+
+}
+.nav-link:hover,
+.nav-link:focus{
+  color: var(--accent);  
+}
+.info-tel{
+    font-weight: 500;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+.info-tel:hover,
+.info-tel:focus{
+   color: var(--accent); 
+}
+
+
+
+/*--hero--*/
+.post-title {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60/44);
+
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--white);
+ 
+ 
+}
+
+/*---кнопка---*/
+.hero-button{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30/16);
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: var(--white);
+border: none;
+background-color: var(--accent);
+cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus{
+ color: var(--primary-text-color);   
+}
+/*---особливости---*/
+.section-title {
+font-weight: 700;
+font-size: 14px;
+line-height: calc(16/14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: var(--primary-text-color);
+}
+.section-title-item {
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+
+}
+/*--фото чим ми займаэмося та бригада--*/
+.section{
+font-weight: 700;
+font-size: 36px;
+line-height: calc(42/36);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);}
+.section-unit-work {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(19/16);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--secondary-text-color);
+}
+.section-unit {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19/16);
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
+
+}
+
+
+/*----footer----*/
+
+.info-tel-ad {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+color: var(--white);
+}
+.info-tel-footer{
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24/14);
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+
+.info-tel-ad:hover,
+.info-tel-ad:focus,
+.info-tel-footer:hover,
+.info-tel-footer:focus{
+    color: var(--accent);
+}
+
+
+
+
+/*---------------------------------------------------------------------*/
+                        /*portfolio.html*/
+    /*button*/                    
+.portfolio-btn{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26/16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+background: #EEEEEE;
+border: none;
+cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    color: var(--white);
+    background-color: var(--accent);
+}
+
+.example {
+font-weight: 700;
+font-size: 18px;
+line-height: calc(36/18);
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+
+}
+.example-item {
+font-weight: 400;
+font-size: 16px;
+line-height: calc(30/16);
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+
+}
+
