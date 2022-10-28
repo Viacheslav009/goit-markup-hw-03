@@ -1,4 +1,26 @@
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
 
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
 /*подключение шрифтов,бэкграунд,цвет абзацев*/
 body {
  background-color: #F5F5F5;
@@ -6,7 +28,7 @@ body {
  font-family: Roboto,Raleway;
 }
 .container{
-    width: 1200px;
+ min-width:  1200px;
 }
 
 /*цвет основного  черного текста color: #212121
@@ -47,9 +69,15 @@ color: var(--accent);
     color:  var(--white) ;
 }
 /* убираем точки в списке везде*/
-.list{
-    list-style: none;
+.
+ul[class],
+ol[class] {
+  list-style: none;
 }
+a {
+        text-decoration: none;
+        /* Отменяем подчеркивание у ссылки */
+      }
 /*---навигация---*/
 .nav-list {
 }
