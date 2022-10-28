@@ -5,60 +5,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!--modern normalize-->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!--custom styles-->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!--fonts-family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
     <style>
-   a { 
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-   } 
-  </style>
+      a {
+        text-decoration: none;
+        /* Отменяем подчеркивание у ссылки */
+      }
+    </style>
   </head>
   <body>
     <!--шапка-->
-    <header>
-      <a class="logo" href="index.html">Web<span class="logo-header">Studio</span></a>
-      <nav>
-        <ul class="nav-list list">
-          <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
-          <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
-          <li class="nav-item"><a href="/" class="nav-link">Контакти</a></li>
-        </ul>
-      </nav>
-
-      <a href="info@devstudio.com" class="info-tel">info@devstudio.com</a><br/>
-      <a href="tel:+380961111111" class="info-tel">+38 096 111 11 11</a>
+    <header class="header">
+      <div class="conteiner">
+        <a class="logo" href="index.html">Web<span class="logo-header">Studio</span></a>
+        <nav>
+          <ul class="nav-list list">
+            <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
+            <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
+            <li class="nav-item"><a href="/" class="nav-link">Контакти</a></li>
+          </ul>
+        </nav>
+        <a href="info@devstudio.com" class="info-tel">info@devstudio.com</a><br />
+        <a href="tel:+380961111111" class="info-tel">+38 096 111 11 11</a>
+      </div>
     </header>
     <!--hero-->
     <main>
-      <div>
-        <section style="background-color: #2F303A;">
-          <h1 class="post-title">
-            Ефективні рішення для 
-            вашого бізнесу
-          </h1>
-          
-          <!--<img src="./img/bg.png" alt="bg" width="1600" height="600" />--> 
+      <div class="hero">
+        <section style="background-color: #2f303a">
+          <h1 class="post-title">Ефективні рішення для вашого бізнесу</h1>
+
+          <!--<img src="./img/bg.png" alt="bg" width="1600" height="600" />-->
           <button type="button" class="hero-button">Замовити послугу</button>
         </section>
       </div>
 
-      <section>
+      <section class="conteiner">
         <!--<h2>Особливостi</h2>-->
         <ul class="list">
           <li>
             <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="section-title-item">
-              Ідейні міркування, і навіть початок повсякденної роботи з
-              формування позиції.
+              Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
             </p>
           </li>
           <li>
             <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="section-title-item">
-              Завдання організації, особливо рамки і місце навчання кадрів тягне
-              у себе.
+              Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
             </p>
           </li>
           <li>
@@ -68,33 +71,22 @@
             </p>
           </li>
           <li>
-            <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3> 
+            <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="section-title-item">
-              Значимість цих проблем настільки очевидна, що реалізація планових
-              завдань.
-            </p >
+              Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+            </p>
           </li>
         </ul>
       </section>
       <!--фото чим ми займаэмося-->
-      <section>
+      <section class="conteiner">
         <h2 class="section">Чим ми займаємося</h2>
         <ul class="list">
           <li>
-            <img
-              src="./img/mbook-min.png"
-              alt="mbook"
-              width="370"
-              height="294"
-            />
+            <img src="./img/mbook-min.png" alt="mbook" width="370" height="294" />
           </li>
           <li>
-            <img
-              src="./img/iphone-min.png"
-              alt="iphone"
-              width="370"
-              height="294"
-            />
+            <img src="./img/iphone-min.png" alt="iphone" width="370" height="294" />
           </li>
           <li>
             <img src="./img/pl-min.png" alt="pl" width="370" height="294" />
@@ -102,7 +94,7 @@
         </ul>
       </section>
       <!--бригада-->
-      <section>
+      <section class="conteiner">
         <h2 class="section">Наша команда</h2>
         <ul class="list">
           <li>
@@ -118,23 +110,13 @@
             <p class="section-unit-work">Frontend Developer</p>
           </li>
           <li>
-            <img
-              src="./img/mikola-min.jpg"
-              alt="mikola"
-              width="270"
-              height="260"
-            />
+            <img src="./img/mikola-min.jpg" alt="mikola" width="270" height="260" />
 
             <h3 class="section-unit">Микола Тарасов</h3>
             <p class="section-unit-work">Marketing</p>
           </li>
           <li>
-            <img
-              src="./img/mikael-min.jpg"
-              alt="mikael"
-              width="270"
-              height="260"
-            />
+            <img src="./img/mikael-min.jpg" alt="mikael" width="270" height="260" />
 
             <h3 class="section-unit">Михайло Єрмаков</h3>
             <p class="section-unit-work">UI Designer</p>
@@ -143,12 +125,13 @@
       </section>
     </main>
     <!--на подвале-->
-    <footer style="background-color: #2F303A;">
+    <footer class="conteiner" style="background-color: #2f303a">
       <a class="logo" href="index.html">Web<span class="logo-footer">Studio</span></a>
       <address>
         <ul>
           <li>
-            <a class="info-tel-ad"
+            <a
+              class="info-tel-ad"
               href="https://goo.gl/maps/oGdaYsp25zFcmJvW9"
               target="_blank"
               rel="nofolow"
