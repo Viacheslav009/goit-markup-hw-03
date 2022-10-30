@@ -21,29 +21,35 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet" />
-    
   </head>
   <body>
     <!--шапка-->
     <header class="header">
-      <div class="container">
+      <div class="header-container container">
         <a class="logo" href="index.html">Web<span class="logo-header">Studio</span></a>
         <nav>
-          <ul class="nav-list list">
+          <ul class="nav-list">
             <li class="nav-item"><a href="./index.html" class="nav-link">Студія</a></li>
             <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
             <li class="nav-item"><a href="/" class="nav-link">Контакти</a></li>
           </ul>
         </nav>
-        <a href="info@devstudio.com" class="info-tel">info@devstudio.com</a><br />
-        <a href="tel:+380961111111" class="info-tel">+38 096 111 11 11</a>
+        <div class="header-group">
+          <a href="info@devstudio.com" class="info">info@devstudio.com</a>
+          <a href="tel:+380961111111" class="tel">+38 096 111 11 11</a>
+        </div>
       </div>
     </header>
+    <!-- line -->
+    <div class="line"></div>
     <!--hero-->
     <main>
       <div class="hero">
         <section style="background-color: #2f303a">
-          <h1 class="post-title">Ефективні рішення для<br/> вашого бізнесу</h1>
+          <h1 class="post-title">
+            Ефективні рішення для<br />
+            вашого бізнесу
+          </h1>
 
           <!--<img src="./img/bg.png" alt="bg" width="1600" height="600" />-->
           <button type="button" class="hero-button">Замовити послугу</button>
@@ -52,7 +58,7 @@
 
       <section class="container">
         <!--<h2>Особливостi</h2>-->
-        <ul class="list">
+        <ul class="list list-item">
           <li>
             <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="section-title-item">
@@ -82,7 +88,7 @@
       <!--фото чим ми займаэмося-->
       <section class="container">
         <h2 class="section">Чим ми займаємося</h2>
-        <ul class="list">
+        <ul class="list list-item">
           <li>
             <img src="./img/mbook-min.png" alt="mbook" width="370" height="294" />
           </li>
@@ -95,42 +101,44 @@
         </ul>
       </section>
       <!--бригада-->
-      <section class="container">
-        <h2 class="section">Наша команда</h2>
-        <ul class="list">
-          <li>
-            <img src="./img/igor-min.jpg" alt="igor" width="270" height="260" />
+      <div class="team">
+        <section class="container">
+          <h2 class="section">Наша команда</h2>
+          <ul class="list list-item">
+            <li>
+              <img src="./img/igor-min.jpg" alt="igor" width="270" height="260" />
 
-            <h3 class="section-unit">Ігор Дем'яненко</h3>
-            <p class="section-unit-work">Product Designer</p>
-          </li>
-          <li>
-            <img src="./img/olga-min.jpg" alt="olga" width="270" height="260" />
+              <h3 class="section-unit">Ігор Дем'яненко</h3>
+              <p class="section-unit-work">Product Designer</p>
+            </li>
+            <li>
+              <img src="./img/olga-min.jpg" alt="olga" width="270" height="260" />
 
-            <h3 class="section-unit">Ольга Рєпіна</h3>
-            <p class="section-unit-work">Frontend Developer</p>
-          </li>
-          <li>
-            <img src="./img/mikola-min.jpg" alt="mikola" width="270" height="260" />
+              <h3 class="section-unit">Ольга Рєпіна</h3>
+              <p class="section-unit-work">Frontend Developer</p>
+            </li>
+            <li>
+              <img src="./img/mikola-min.jpg" alt="mikola" width="270" height="260" />
 
-            <h3 class="section-unit">Микола Тарасов</h3>
-            <p class="section-unit-work">Marketing</p>
-          </li>
-          <li>
-            <img src="./img/mikael-min.jpg" alt="mikael" width="270" height="260" />
+              <h3 class="section-unit">Микола Тарасов</h3>
+              <p class="section-unit-work">Marketing</p>
+            </li>
+            <li>
+              <img src="./img/mikael-min.jpg" alt="mikael" width="270" height="260" />
 
-            <h3 class="section-unit">Михайло Єрмаков</h3>
-            <p class="section-unit-work">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+              <h3 class="section-unit">Михайло Єрмаков</h3>
+              <p class="section-unit-work">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!--на подвале-->
     <footer style="background-color: #2f303a">
       <div class="container">
-        <a class="logo" href="index.html">Web<span class="logo-footer">Studio</span></a>
+        <a class="footer-logo" href="index.html">Web<span class="logo-footer">Studio</span></a>
         <address>
-          <ul>
+          <ul class="footer-items">
             <li>
               <a
                 class="info-tel-ad"
@@ -141,7 +149,7 @@
               >
             </li>
             <li><a class="info-tel-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            <li><a class="info-tel-footer" href="info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="info-footer" href="info@devstudio.com">info@devstudio.com</a></li>
           </ul>
         </address>
       </div>
