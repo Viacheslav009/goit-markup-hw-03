@@ -21,7 +21,7 @@ img {
 }
 /*подключение шрифтов,бэкграунд,цвет абзацев*/
 body {
-  background-color: var(--white) ;
+  background-color: var(--white);
   color: var(--secondary-text-color);
   font-family: Roboto, Raleway;
 }
@@ -75,26 +75,19 @@ studio-logo-header #000000
   letter-spacing: 0.03em;
   color: var(--black);
 }
-.logo-footer {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: calc(31 / 26);
-  letter-spacing: 0.03em;
-  color: var(--white);
-}
-/* убираем точки в списке */
 
+/* убираем точки в списке */
 ul[class],
 ol[class],
 li {
   list-style: none;
 }
+
+/* Отменяем подчеркивание у ссылки */
 a {
   text-decoration: none;
-  /* Отменяем подчеркивание у ссылки */
 }
+
 /*---навигация---*/
 .header-container {
   display: flex;
@@ -119,6 +112,10 @@ a {
   color: var(--accent);
 }
 
+.nav-list .nav-link.curent {
+  color: var(--accent);
+}
+
 .header-group {
   display: flex;
   align-items: center;
@@ -133,7 +130,7 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  color:var(--secondary-text-color) ;
+  color: var(--secondary-text-color);
 }
 
 .tel {
@@ -144,7 +141,7 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  color:var(--secondary-text-color) ;
+  color: var(--secondary-text-color);
 }
 
 .info:hover,
@@ -185,7 +182,7 @@ a {
 }
 .hero {
   text-align: center;
-  background-color: var(--hero-footer-background) ;
+  background-color: var(--hero-footer-background);
   margin-bottom: 94px;
 }
 
@@ -247,8 +244,7 @@ a {
   background-color: var(--secondary-background-white);
 }
 .cards-team {
-  background: var(--white) ;
-  /* material shadow v1 */
+  background: var(--white);
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -370,7 +366,6 @@ a {
   margin-bottom: 34px;
 }
 
-
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -401,7 +396,7 @@ a {
 }
 
 .cards {
-  background:var(--white);
+  background: var(--white);
   outline: 1px solid #eeeeee;
 }
 
