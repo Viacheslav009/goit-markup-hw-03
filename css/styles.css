@@ -21,8 +21,8 @@ img {
 }
 /*подключение шрифтов,бэкграунд,цвет абзацев*/
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--white) ;
+  color: var(--secondary-text-color);
   font-family: Roboto, Raleway;
 }
 /* контейнер */
@@ -133,7 +133,7 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color:var(--secondary-text-color) ;
 }
 
 .tel {
@@ -144,7 +144,7 @@ a {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
 
-  color: #757575;
+  color:var(--secondary-text-color) ;
 }
 
 .info:hover,
@@ -185,7 +185,7 @@ a {
 }
 .hero {
   text-align: center;
-  background-color: #2f303a;
+  background-color: var(--hero-footer-background) ;
   margin-bottom: 94px;
 }
 
@@ -244,10 +244,10 @@ a {
 }
 /*--фото чим ми займаэмося та бригада--*/
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--secondary-background-white);
 }
 .cards-team {
-  background: #ffffff;
+  background: var(--white) ;
   /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -401,7 +401,7 @@ a {
 }
 
 .cards {
-  background: #ffffff;
+  background:var(--white);
   outline: 1px solid #eeeeee;
 }
 
