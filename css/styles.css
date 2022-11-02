@@ -27,7 +27,7 @@ body {
 }
 /* контейнер */
 .container {
-  width: 1200px;
+  width : 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -101,11 +101,20 @@ a {
   line-height: calc(16 / 12);
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-}
-.nav-item {
   padding-top: 30px;
   padding-bottom: 30px;
+   display: block;
 }
+/* .nav-item {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: block;
+} */
+
+/* .nav-list li { 
+  padding-top: 30px;
+  padding-bottom: 30px;
+}*/
 
 .nav-link:hover,
 .nav-link:focus {
@@ -222,6 +231,12 @@ a {
   color: var(--primary-text-color);
 }
 /*---особливости---*/
+
+.peculiarities{
+  padding-top: 94px;
+}
+
+
 .list {
   display: flex;
   gap: 30px;
