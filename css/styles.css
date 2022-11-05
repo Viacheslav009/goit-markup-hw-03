@@ -444,15 +444,16 @@ border-radius: 4px;
 }
 
 .cards {
-  box-sizing
-
+  background-color: #FFFFFF;
+width: 370px;
+height: 404px;
 }
 
 .about-portfolio {
-  width: auto;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
+  border-bottom: 1px #757575;
 }
 
 .example {
