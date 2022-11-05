@@ -27,7 +27,7 @@ body {
 }
 /* контейнер */
 .container {
-  width : 1200px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -103,7 +103,7 @@ a {
   color: var(--primary-text-color);
   padding-top: 30px;
   padding-bottom: 30px;
-   display: block;
+  display: block;
 }
 /* .nav-item {
   padding-top: 30px;
@@ -232,10 +232,9 @@ a {
 }
 /*---особливости---*/
 
-.peculiarities{
+.peculiarities {
   padding-top: 94px;
 }
-
 
 .list {
   display: flex;
@@ -440,14 +439,17 @@ a {
 .portfolio-btn:focus {
   color: var(--white);
   background-color: var(--accent);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .cards {
-  background: var(--white);
-  outline: 1px solid #eeeeee;
+  box-sizing
+
 }
 
 .about-portfolio {
+  width: auto;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 24px;
